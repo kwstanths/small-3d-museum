@@ -14,7 +14,7 @@ For the calculation of the represenative vertex in Vertex Clustering, both mean 
 
 ## Time Critical Rendering
 At runtime, all the visible models are gathered, based on the user's position, and their LOD level to be drawn is calculated using a greedy algorithm that takes into consideration distance, size, number of triangles, etc. 
-Different LODS levels are marked with different colors. Red=Best LOD level, Green=Medium LOD level, Blue=Worst lod level
+Different LOD levels are marked with different colors. Red=Best, Green=Medium, Blue=Worst
 
 ## Visibility
 As a precomputation, the map is divided into cells, and the visibility set for each cell is computed. At runtime, this set is used to draw only what's visible, as well for LOD calculation for only the visible 3D models
